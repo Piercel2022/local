@@ -4,7 +4,6 @@ import {
 } from '@nestjs/common';
 import { Test, TestingModule } from '@nestjs/testing';
 import { getRepositoryToken } from '@nestjs/typeorm';
-import { Repository } from 'typeorm';
 import { Organization } from './organization.entity.js';
 import { OrganizationsService } from './organizations.service.js';
 
